@@ -1,6 +1,4 @@
-# LocalstorageCars
-
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.1.
+![image](https://github.com/user-attachments/assets/3cc72577-2bc1-4995-9d6b-bcce1689f980)# LocalstorageCars
 
 ## Development server
 
@@ -12,48 +10,14 @@ ng serve
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Code scaffolding
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Project Description
 
-```bash
-ng generate component component-name
-```
+Thats simple CRUD project about cars and their services.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### Screenshots
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+![image](https://github.com/user-attachments/assets/f87c6617-a07f-49aa-a5b3-b44cbb9988ee)
+![image](https://github.com/user-attachments/assets/83bdcd20-f083-4fac-98c9-038acab1e0a6)
+![image](https://github.com/user-attachments/assets/40dc709f-2b50-4964-9dfd-23b7e86b90f9)
+![image](https://github.com/user-attachments/assets/a56a9d9d-b916-4bbc-a254-3822ac25d31d)
