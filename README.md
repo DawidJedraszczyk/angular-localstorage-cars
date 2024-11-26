@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/3cc72577-2bc1-4995-9d6b-bcce1689f980)# LocalstorageCars
+# LocalstorageCars
 
 ## Development server
 
