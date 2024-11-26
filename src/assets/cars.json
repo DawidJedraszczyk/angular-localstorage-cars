@@ -1,0 +1,201 @@
+{
+    "cars": [
+      {
+        "id": 1,
+        "model": "Corolla",
+        "manufacturer": "Toyota",
+        "year": 2024,
+        "image_path": "assets/images/Toyota_Corolla.webp",
+        "parts": [
+          {
+            "name": "Engine",
+            "cost": 4500,
+            "details": {
+              "type": "Inline-4",
+              "warranty_years": 5
+            }
+          },
+          {
+            "name": "Transmission",
+            "cost": 2800,
+            "details": {
+              "type": "CVT",
+              "warranty_years": 3
+            }
+          },
+          {
+            "name": "Tires",
+            "cost": 700,
+            "details": {
+              "type": "All-Season",
+              "quantity": 4
+            }
+          },
+          {
+            "name": "Brakes",
+            "cost": 350,
+            "details": {
+              "type": "Disc",
+              "warranty_years": 2
+            }
+          },
+          {
+            "name": "Battery",
+            "cost": 180,
+            "details": {
+              "type": "Lead-Acid",
+              "warranty_years": 3
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "model": "Civic",
+        "manufacturer": "Honda",
+        "year": 2024,
+        "image_path": "assets/images/Honda_Civic.jpg",
+        "parts": [
+          {
+            "name": "Engine",
+            "cost": 4600,
+            "details": {
+              "type": "Inline-4 Turbocharged",
+              "warranty_years": 5
+            }
+          },
+          {
+            "name": "Transmission",
+            "cost": 3000,
+            "details": {
+              "type": "Automatic",
+              "warranty_years": 3
+            }
+          },
+          {
+            "name": "Tires",
+            "cost": 750,
+            "details": {
+              "type": "Performance",
+              "quantity": 4
+            }
+          },
+          {
+            "name": "Brakes",
+            "cost": 400,
+            "details": {
+              "type": "Disc",
+              "warranty_years": 2
+            }
+          },
+          {
+            "name": "Battery",
+            "cost": 190,
+            "details": {
+              "type": "Lithium-Ion",
+              "warranty_years": 3
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "model": "F-150",
+        "manufacturer": "Ford",
+        "year": 2024,
+        "image_path": "assets/images/Ford_F150.jpg",
+        "parts": [
+          {
+            "name": "Engine",
+            "cost": 6000,
+            "details": {
+              "type": "V8",
+              "warranty_years": 5
+            }
+          },
+          {
+            "name": "Transmission",
+            "cost": 3500,
+            "details": {
+              "type": "10-Speed Automatic",
+              "warranty_years": 3
+            }
+          },
+          {
+            "name": "Tires",
+            "cost": 1200,
+            "details": {
+              "type": "All-Terrain",
+              "quantity": 4
+            }
+          },
+          {
+            "name": "Brakes",
+            "cost": 450,
+            "details": {
+              "type": "Disc",
+              "warranty_years": 2
+            }
+          },
+          {
+            "name": "Battery",
+            "cost": 220,
+            "details": {
+              "type": "Heavy Duty",
+              "warranty_years": 4
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "model": "Model 3",
+        "manufacturer": "Tesla",
+        "year": 2024,
+        "image_path": "assets/images/Tesla_Model_3.webp",
+        "parts": [
+          {
+            "name": "Electric Motor",
+            "cost": 7000,
+            "details": {
+              "type": "Dual Motor",
+              "warranty_years": 8
+            }
+          },
+          {
+            "name": "Battery Pack",
+            "cost": 12000,
+            "details": {
+              "type": "Lithium-Ion",
+              "warranty_years": 8
+            }
+          },
+          {
+            "name": "Tires",
+            "cost": 850,
+            "details": {
+              "type": "Performance",
+              "quantity": 4
+            }
+          },
+          {
+            "name": "Brakes",
+            "cost": 500,
+            "details": {
+              "type": "Regenerative & Disc",
+              "warranty_years": 3
+            }
+          },
+          {
+            "name": "Charging Unit",
+            "cost": 600,
+            "details": {
+              "type": "Wall Charger",
+              "warranty_years": 2
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

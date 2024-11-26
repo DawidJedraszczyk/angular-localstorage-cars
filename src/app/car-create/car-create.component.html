@@ -1,0 +1,126 @@
+<div>
+  <h2>Create New Car</h2>
+  <form (ngSubmit)="saveCar()">
+    <div class="mb-3">
+      <label for="model" class="form-label">Model</label>
+      <input
+        id="model"
+        class="form-control"
+        [(ngModel)]="car.model"
+        name="model"
+        required
+      />
+    </div>
+
+    <div class="mb-3">
+      <label for="manufacturer" class="form-label">Manufacturer</label>
+      <input
+        id="manufacturer"
+        class="form-control"
+        [(ngModel)]="car.manufacturer"
+        name="manufacturer"
+        required
+      />
+    </div>
+
+    <div class="mb-3">
+      <label for="year" class="form-label">Year</label>
+      <input
+        id="year"
+        class="form-control"
+        type="number"
+        [(ngModel)]="car.year"
+        name="year"
+        required
+      />
+    </div>
+
+    <div class="mb-3">
+      <label for="image" class="form-label">Car Image</label>
+      <input
+        id="image"
+        class="form-control"
+        type="file"
+        (change)="handleImageUpload($event)"
+        accept="image/*"
+      />
+      <div *ngIf="imagePreview" class="mt-3">
+        <p>Preview:</p>
+        <img [src]="imagePreview" alt="Image Preview" class="img-thumbnail" />
+      </div>
+    </div>
+
+    <div class="mt-4">
+      <h3>Parts</h3>
+      <button type="button" class="btn btn-success mb-3" (click)="addPart()">
+        Add New Part
+      </button>
+      <div
+        *ngFor="let part of car.parts; let i = index"
+        class="border p-3 mb-3 rounded"
+      >
+        <h4>Part {{ i + 1 }}</h4>
+        <button
+          type="button"
+          class="btn btn-danger btn-sm float-end"
+          (click)="deletePart(i)"
+        >
+          Delete
+        </button>
+        <div class="mb-3">
+          <label for="part-name-{{ i }}" class="form-label">Name</label>
+          <input
+            id="part-name-{{ i }}"
+            class="form-control"
+            [(ngModel)]="car.parts[i].name"
+            name="part-name-{{ i }}"
+            required
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="part-cost-{{ i }}" class="form-label">Cost</label>
+          <input
+            id="part-cost-{{ i }}"
+            class="form-control"
+            type="number"
+            [(ngModel)]="car.parts[i].cost"
+            name="part-cost-{{ i }}"
+            required
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="part-type-{{ i }}" class="form-label">Type</label>
+          <input
+            id="part-type-{{ i }}"
+            class="form-control"
+            [(ngModel)]="car.parts[i].details.type"
+            name="part-type-{{ i }}"
+            required
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="part-warranty-{{ i }}" class="form-label"
+            >Warranty Years</label
+          >
+          <input
+            id="part-warranty-{{ i }}"
+            class="form-control"
+            type="number"
+            [(ngModel)]="car.parts[i].details.warranty_years"
+            name="part-warranty-{{ i }}"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-end">
+      <button type="button" class="btn btn-secondary me-2" (click)="cancel()">
+        Cancel
+      </button>
+      <button type="submit" class="btn btn-primary">Create</button>
+    </div>
+  </form>
+</div>

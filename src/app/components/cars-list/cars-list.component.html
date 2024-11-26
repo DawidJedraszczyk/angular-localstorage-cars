@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row">
+    <div
+      *ngFor="let car of cars(); trackBy: trackByCarId"
+      class="col-sm-12 col-md-6 col-lg-4 mb-3"
+    >
+      <app-car-detail-small
+        [car]="car"
+        (carDeleted)="handleCarDeleted($event)"
+      />
+    </div>
+  </div>
+</div>
